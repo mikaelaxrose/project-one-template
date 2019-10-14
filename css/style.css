@@ -1,4 +1,28 @@
-body{background-color: #e9dfc8;}
+body{background-color: #e9dfc8;
+     font-family: 'IBM Plex Serif', serif;
+     font-weight: thin;}
+
+header{width:90%;
+       border:1px solid black
+       margin:80px auto;
+       display:grid;}
+
 .home-page{background-image:url(../images/home-background.png);}
 .tuesday-page{background-image:url(../images/tuesday.png);}
-/* Enter your Styles below! */
+.types-page{background-image:url(../images/types.png);}
+.memes-page{background-image:url(../images/types.png);}
+.history-page{background-image:url(../images/history.png);}
+
+nav ul{list-style-type:none;}
+
+nav li{display:inline-block;
+       margin-right:120px
+       margin-top:40px
+       color: black;}
+
+a {text-decoration:none}
+
+a:visited {color: #000000;}
+a:hover {color: #d34a32;}
+
+       /* Enter your Styles below! */
