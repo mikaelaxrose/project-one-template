@@ -27,7 +27,8 @@ nav li{display:inline-block;
        color: black;
    	   font-family: 'IBM Plex Serif', serif;
 	   font-size: 19px;
-	   padding-right: 22px}
+	   padding-right: 22px;
+	   text-align: right;}
 
 a {text-decoration:none}
 
@@ -43,7 +44,7 @@ a:hover {color: #d34a32;}
 }
  
 .home-image{width:100%;
-			height:auto;} 
+			height: auto;} 
 
 .sub-head{font-family: 'IBM Plex Serif', serif;
 		  font-size: 27px;
@@ -75,12 +76,28 @@ a:hover {color: #d34a32;}
 		  padding-top:10px;
 		  padding-bottom:10px;}
 
-.container{margin-left: 280px;
-	       margin-right: 260px;
-		   padding-top: 30px;
-           padding-right: 0px;}
+.tuesday-gallery{display:grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				margin-left: 280px;
+	       		margin-right: 260px;
+		   		padding-top: 30px;
+           		padding-right: 0px;}
 
-.CGBT, .IPCT, .CPC, .TUST {font-family: 'IBM Plex Serif', serif;
+.type-gallery{display: grid;
+              grid-template-columns: 1fr 1fr 1fr 1fr;
+              margin-left: 280px;
+	       	  margin-right: 260px;
+		  	  padding-top: 30px;
+          	  padding-right: 0px;}
+
+.recipe-gallery{display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                margin-left: 280px;
+	       		margin-right: 260px;
+		   		padding-top: 30px;
+           		padding-right: 0px;}
+
+.cgbt, .ipct, .cpc, .tust {font-family: 'IBM Plex Serif', serif;
 		                   font-size: 16px;
 		                   width: 202px;
 		  				   align-items: center;
