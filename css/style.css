@@ -79,3 +79,13 @@ a:hover {color: #d34a32;}
 	       margin-right: 260px;
 		   padding-top: 30px;
            padding-right: 0px;}
+
+.CGBT, .IPCT, .CPC, .TUST {font-family: 'IBM Plex Serif', serif;
+		                   font-size: 16px;
+		                   width: 202px;
+		  				   align-items: center;
+		  				   border: 1px solid black;
+		  				   background-color: #e9dfc8;
+		 				   padding-left:17px;
+		  				   padding-top:10px;
+		  				   padding-bottom:10px;}
