@@ -28,7 +28,9 @@ nav li{display:inline-block;
    	   font-family: 'IBM Plex Serif', serif;
 	   font-size: 19px;
 	   padding-right: 22px;
-	   text-align: right;}
+	   text-align: right;
+	   text-align: right;
+	   margin-bottom: 10px;}
 
 a {text-decoration:none}
 
@@ -59,6 +61,19 @@ a:hover {color: #d34a32;}
 .tues-text{font-family: 'IBM Plex Serif', serif;
 		  font-size: 19px;
 		  width:870px;
+		  margin: 28px;
+		  margin-left: 280px;
+		  border: 1px solid black;
+		  background-color: #e9dfc8;
+		  padding-left:17px;
+		  padding-top:17px;
+		  padding-bottom:17px;
+		  padding-right: 17px;}
+
+.hist-text{font-family: 'IBM Plex Serif', serif;
+		  font-size: 19px;
+		  width: 877px;
+		  margin-top: 28px;
 		  margin-left: 280px;
 		  border: 1px solid black;
 		  background-color: #e9dfc8;
@@ -66,15 +81,8 @@ a:hover {color: #d34a32;}
 		  padding-top:10px;
 		  padding-bottom:10px;}
 
-.hist-text{font-family: 'IBM Plex Serif', serif;
-		  font-size: 19px;
-		  width: 877px;
-		  margin-left: 280px;
-		  border: 1px solid black;
-		  background-color: #e9dfc8;
-		  padding-left:17px;
-		  padding-top:10px;
-		  padding-bottom:10px;}
+.his-col{display: grid;
+		grid-template-columns: 1fr 1fr;}
 
 .tuesday-gallery{display:grid;
 				grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,6 +95,7 @@ a:hover {color: #d34a32;}
               grid-template-columns: 1fr 1fr 1fr 1fr;
               margin-left: 280px;
 	       	  margin-right: 260px;
+	       	  margin-bottom: 28px;
 		  	  padding-top: 30px;
           	  padding-right: 0px;}
 
@@ -95,14 +104,66 @@ a:hover {color: #d34a32;}
                 margin-left: 280px;
 	       		margin-right: 260px;
 		   		padding-top: 30px;
-           		padding-right: 0px;}
+           		padding-right: 0px;
+           		column-gap: 25px;}
 
 .cgbt, .ipct, .cpc, .tust {font-family: 'IBM Plex Serif', serif;
 		                   font-size: 16px;
-		                   width: 202px;
+		                   width: 200px;
 		  				   align-items: center;
 		  				   border: 1px solid black;
 		  				   background-color: #e9dfc8;
 		 				   padding-left:17px;
 		  				   padding-top:10px;
 		  				   padding-bottom:10px;}
+
+.meat {color: #e9dfc8;
+	   font-family: base-mono-narrow, monospace;
+	   text-align: center;
+	   font-size: 24px;
+	   background-color: #d34a32;
+	   padding-top: 15px
+	   padding-bottom: 15px;
+	   width: 200px;
+	   margin-top: -5px;}
+
+.recipe-title {font-family: 'IBM Plex Serif', serif;
+			   font-size: 19px;}
+
+.italic {font-family: 'IBM Plex Serif', serif;
+	     font-size: 14px
+	     font-style: italic;}
+
+.see-recipe {display: inline-block;
+			font-family: base-mono-narrow, monospace;
+	   		text-align: center;
+	   		font-size: 24px;
+	   		background-color: #bac63e;
+	   		padding-top: 15px
+	   		padding-bottom: 15px;
+	   		width: 200px;
+	   		margin-top: -5px;}
+
+.gal-hover img{transition: .3s;}
+.gal-hover:hover img{filter:blur(2px) brightness(60%);}
+
+.res-name {font-family: base-mono-narrow, monospace;
+			font-size: 43px;
+			position: absolute;
+			z-index: 1;
+			color: #bac63e;
+			transform: rotate(270deg);
+			}
+
+.street {font-family: 'IBM Plex Serif', serif;
+			font-size: 25px;
+			position: absolute;
+			z-index: 1;
+			color: #bac63e;
+			transform: rotate(270deg);
+			}
+
+.gal-hover :not img{opacity: 0;
+					transition: .3s;}
+
+.gal-hover:hover :not img{opacity:1;} 
