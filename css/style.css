@@ -31,10 +31,6 @@ nav li{display:inline-block;
 	   text-align: right;
 	   margin-bottom: 10px;}
 
-a {color: black;
-   text-decoration: none;}
-
-a:visited {color: black;}
 a:hover {color: #d34a32;}
 
 .gallery{margin:auto;
