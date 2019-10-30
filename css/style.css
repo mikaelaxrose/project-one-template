@@ -33,7 +33,7 @@ nav li{display:inline-block;
 
 a {text-decoration:none}
 
-a:active {color:black;}
+a:link {color:black;}
 a:visited {color: black;}
 a:hover {color: #d34a32;}
 
