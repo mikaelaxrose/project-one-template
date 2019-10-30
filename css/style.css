@@ -31,6 +31,7 @@ nav li{display:inline-block;
 	   text-align: right;
 	   margin-bottom: 10px;}
 
+a {text-decoration: none;}
 a:hover {color: #d34a32;}
 
 .gallery{margin:auto;
