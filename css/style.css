@@ -33,15 +33,18 @@ nav li{display:inline-block;
 
 a {text-decoration:none}
 
+a:active {color:black;}
 a:visited {color: black;}
 a:hover {color: #d34a32;}
 
-.gallery{margin-top: 42.5px;
-	     text-align: center;}
+.gallery{margin:auto;
+		width: 80%;
+		margin-top: 42.5px;
+	    text-align: center;}
 
 .gallery img{
-	width: 230px;
-	padding: 5px;
+	width: 250px;
+	padding: 15px;
 }
  
 .home-image{width:100%;
@@ -49,7 +52,7 @@ a:hover {color: #d34a32;}
 
 .sub-head{font-family: 'IBM Plex Serif', serif;
 		  font-size: 27px;
-		  margin-left: 280px;
+		  margin-left: 80px;
 		  border: 1px solid black;
 		  background-color: #e9dfc8;
 		  width: 426px;
@@ -59,9 +62,11 @@ a:hover {color: #d34a32;}
 
 .tues-text{font-family: 'IBM Plex Serif', serif;
 		  font-size: 19px;
-		  width:870px;
-		  margin: 28px;
-		  margin-left: 280px;
+		  margin: auto;
+		  line-height: 30px;
+		  width: 80%;
+		  margin-top: 28px;
+		  margin-bottom: 28px;
 		  border: 1px solid black;
 		  background-color: #e9dfc8;
 		  padding-left:17px;
@@ -71,9 +76,10 @@ a:hover {color: #d34a32;}
 
 .hist-text{font-family: 'IBM Plex Serif', serif;
 		  font-size: 19px;
-		  width: 877px;
+		  line-height: 30px;
+		  margin: auto;
+          width: 80%;
 		  margin-top: 28px;
-		  margin-left: 280px;
 		  border: 1px solid black;
 		  background-color: #e9dfc8;
 		  padding-left:17px;
@@ -87,45 +93,51 @@ a:hover {color: #d34a32;}
 
 .tuesday-gallery{display:grid;
 				grid-template-columns: 1fr 1fr 1fr 1fr;
-				margin-left: 280px;
-	       		margin-right: 260px;
+				margin: auto;
+                width: 80%;
 		   		padding-top: 30px;
-           		padding-right: 0px;}
+           		padding-right: 0px;
+           		grid-column-gap: 50px;}
+
+.tuesday-gallery img{width: 100%;
+}
 
 .type-gallery{display: grid;
               grid-template-columns: 1fr 1fr 1fr 1fr;
-              margin-left: 280px;
-	       	  margin-right: 260px;
+              margin: auto;
+              width: 80%;
 	       	  margin-bottom: 28px;
 		  	  padding-top: 30px;
-          	  padding-right: 0px;}
+          	  padding-right: 0px;
+          	  grid-column-gap: 50px;}
+
+.type-gallery img{width: 100%;
+}
 
 .recipe-gallery{display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-                margin-left: 280px;
-	       		margin-right: 260px;
+                margin: auto;
+                width: 80%;
 		   		padding-top: 30px;
            		padding-right: 0px;
-           		column-gap: 25px;}
+           		grid-column-gap: 50px;}
 
 .cgbt, .ipct, .cpc, .tust {font-family: 'IBM Plex Serif', serif;
 		                   font-size: 16px;
-		                   width: 200px;
+		  				   padding: 15px;
 		  				   align-items: center;
 		  				   border: 1px solid black;
+		  				   border-bottom: none;
 		  				   background-color: #e9dfc8;
-		 				   padding-left:17px;
-		  				   padding-top:10px;
-		  				   padding-bottom:10px;}
+		 				   }
 
 .meat {color: #e9dfc8;
 	   font-family: base-mono-narrow, monospace;
 	   text-align: center;
 	   font-size: 24px;
 	   background-color: #d34a32;
-	   padding-top: 15px
+	   padding-top: 15px;
 	   padding-bottom: 15px;
-	   width: 200px;
 	   margin-top: -5px;}
 
 .recipe-title {font-family: 'IBM Plex Serif', serif;
@@ -138,30 +150,35 @@ a:hover {color: #d34a32;}
 .see-recipe {display: inline-block;
 			font-family: base-mono-narrow, monospace;
 	   		text-align: center;
+	   		padding-top: 15px;
+	   		padding-bottom: 15px;
 	   		font-size: 24px;
 	   		background-color: #bac63e;
-	   		padding-top: 25px
-	   		padding-bottom: 25px;
-	   		width: 215px;
-	   		}
+	   		border: 1px solid black;
+		  	border-top: none;}
 
 .gal-hover img{transition: .3s;}
 .gal-hover:hover img{filter:blur(2px) brightness(60%);}
 
 .res-name {font-family: base-mono-narrow, monospace;
-			font-size: 43px;
+			font-size: 40px;
+			margin-top: -195px;
+			margin-left: -50px;
+			align-content: left;
 			position: absolute;
 			z-index: 1;
 			color: #bac63e;
 			transform: rotate(270deg);
+			grid-column-gap: 50px;
 			}
 
 .street {font-family: 'IBM Plex Serif', serif;
 			font-size: 25px;
+			margin-top: -35px;
 			position: absolute;
 			z-index: 1;
 			color: #bac63e;
-			transform: rotate(270deg);
+			grid-column-gap: 50px;
 			}
 
 .gal-hover :not img{opacity: 0;
